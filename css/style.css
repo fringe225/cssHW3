@@ -1,0 +1,368 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+header{
+    padding: 20px 6rem;
+    overflow: auto;
+   background-color: #F8F9FA;
+}
+
+header .left{
+    float:left;
+}
+
+header .left a{
+    color:black;
+    font-size:25px;
+    font-weight: bold;
+}
+
+header .right{
+    float:right;
+    border-radius:5px;
+    border:none;
+    background-color: #0d6efd;
+    padding: 10px 15px;
+    transition: 0.5s;
+}
+
+header .right a{
+    color:white;   
+}
+
+header .right:hover{
+    background-color: aqua;
+}
+
+
+/* First DIV */
+
+.first{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-masthead.jpg);
+    padding:12rem;
+}
+
+.f-text{
+   text-align: center;
+   width:60%;
+   margin:auto;
+   padding:20px;
+   color:white;
+}
+
+.f-text p{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.f-form{
+    width:50%;
+    margin:30px auto;
+}
+
+.f-form input{
+    width:70%;
+    padding: 1rem 1.25rem;
+    font-size: 1.25rem;
+    border-radius: 0.3rem;
+    outline:none;
+    border:none;
+    transition: 0.5s;
+}
+
+.f-form input:focus{
+    border-bottom:2px solid aqua;
+}
+
+.f-form button{
+    border-radius:5px;
+    border:none;
+    background-color: #0d6efd;
+    padding: 10px 15px;
+    transition: 0.5s;
+    color:white;
+    padding: 1rem 1.25rem;
+    font-size: 1.25rem;
+    border-radius: 0.3rem;
+    margin: 0 0 0 20px;
+    
+}
+
+/*Second Div */
+
+.second{
+    padding: 20px 6rem;
+    background-color: #F8F9FA;
+    width: 100%;
+    overflow: auto;
+}
+
+.s-box{
+    width: 33%;
+    float: left;
+    padding:4rem;
+}
+
+.s-box-icon{
+    font-size:10rem;
+    text-align: center;
+}
+
+
+
+.s-box-text h4{
+    font-size: 2rem;
+    text-align:center;
+}
+
+.s-box-text p{
+    font-size: 1.25rem;
+    font-weight: 300;  
+    text-align: center;
+}
+
+/* Third div */
+.third{
+    width: 100%;
+    overflow:auto;
+    
+}
+
+.t-box1{
+    width:50%;
+    float:left;
+}
+
+.t-box1 h2{
+    font-size:3rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    width: 70%;
+    margin: 100px auto 20px;
+}
+
+.t-box1 p{
+    margin-bottom: 3rem;
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 1.2;
+    width: 45%;
+    margin: 0 0 0 6.5rem;
+}
+
+
+
+.t-box2{
+    width:50%;
+    float:right;
+}
+
+.t-box2 h2{
+    font-size:3rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    width: 70%;
+    margin: 100px auto 20px;
+}
+
+.t-box2 p{
+    margin-bottom: 3rem;
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 1.2;
+    width: 45%;
+    margin: 0 0 0 6.5rem;
+}
+
+.t-box2 img{
+    width: 100%;
+    height: 600px;
+   
+}
+
+
+
+.t-box3{
+    width:50%;
+    float:left;
+}
+
+.t-box3 h2{
+    font-size:3rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    width: 70%;
+    margin: 100px auto 20px;
+}
+
+.t-box3 p{
+    margin-bottom: 3rem;
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 1.2;
+    width: 45%;
+    margin: 0 0 0 6.5rem;
+}
+
+.t-box3 img{
+    width: 100%;
+    height: 600px;
+}
+
+
+/* Four Div */
+
+
+
+.fourth{
+    width:100%;
+    overflow: auto;
+    background-color:#fff;
+    padding:112px 0;
+}
+
+.f-head-text{
+    width:30%;
+    margin:0 auto 50px;
+
+}
+
+.f-box{
+    width:33%;
+    float:left;
+    
+}
+
+.f-box-img{
+    padding:1rem 8rem;
+}
+.f-box-img img{
+    width:192px;
+    height: 192px;
+    border-radius:100px;
+    box-shadow: 0px 5px 5px 0px #adb5bd;
+    
+}
+
+.f-box-text{
+    text-align: center;
+}
+
+.f-box-text h4{
+    font-size: 1.5rem;
+    margin: 0 0 10px;
+}
+
+.f-box-text p{
+    padding:0 80px;
+}
+
+
+/* Fifth DIv */
+
+#registration{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-masthead.jpg);
+    padding:8rem;
+    margin:100px 0;
+}
+
+.five-text{
+   text-align: center;
+   width:60%;
+   margin:auto;
+   padding:20px;
+   color:white;
+}
+
+.five-text p{
+    font-size: 2rem;
+    font-weight: bold;
+    width: 100%;
+}
+
+.five-form{
+    width:50%;
+    margin:30px auto;
+}
+
+.five-form input{
+    width:70%;
+    padding: 1rem 1.25rem;
+    font-size: 1.25rem;
+    border-radius: 0.3rem;
+    outline:none;
+    border:none;
+    transition: 0.5s;
+}
+
+.five-form input:focus{
+    border-bottom:2px solid aqua;
+}
+
+.five-form button{
+    border-radius:5px;
+    border:none;
+    background-color: #0d6efd;
+    padding: 10px 15px;
+    transition: 0.5s;
+    color:white;
+    padding: 1rem 1.25rem;
+    font-size: 1.25rem;
+    border-radius: 0.3rem;
+    margin: 0 0 0 20px;
+    
+}
+
+
+/* footer */
+
+footer{
+    width:100%;
+    overflow:auto;
+    padding: 20px 6rem;
+}
+.leftf{
+    width:50%;
+    float:left;
+    
+}
+.leftf p{
+    margin:10px 0 0 10px;
+}
+
+
+.leftf a{
+    text-decoration-line:underline;
+    margin: 0 10px;
+}
+
+.rightf{
+    width:50%;
+    float:right;
+    text-align:right;
+}
+
+.rightf i{
+    font-size: 15px;
+    background-color: #1d809f;
+    border-radius: 100%;
+    color: #fff;
+    padding: 15px;
+    margin: 0 10px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.rightf i:hover{
+    background-color: #044558;
+}
